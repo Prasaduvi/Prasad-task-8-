@@ -2,7 +2,7 @@
 
 Title: VPN Setup and Privacy Verification Report
 
-Objective: The objective of this task was to understand the role of Virtual Private Networks (VPNs) in protecting online privacy and enabling secure communication. [cite\_start]This involved setting up a free VPN client and verifying its functionality by observing changes in the reported IP address[cite: 6, 13].
+Objective: The objective of this task was to understand the role of Virtual Private Networks (VPNs) in protecting online privacy and enabling secure communication.This involved setting up a free VPN client and verifying its functionality by observing changes in the reported IP address.
 
 Tools Used:
 
