@@ -1,0 +1,39 @@
+# Objective
+
+The objective of this task was to understand the role of Virtual Private Networks (VPNs) in protecting online privacy and enabling secure communication. This involved setting up a free VPN client and verifying its functionality by observing changes in the reported IP address.
+
+# Tools Used
+
+* Windscribe Free Tier VPN Client
+* whatismyipaddress.com
+
+# VPN Setup Steps
+
+1.  **Selection of VPN Service:** I chose Windscribe, a reputable free VPN service, as recommended in the task hints.
+2.  **Account Creation and Download:** I navigated to the Windscribe website and signed up for a free account. After successful registration, I downloaded the Windscribe VPN client for my operating system.
+3.  **Installation:** I ran the downloaded installer and followed the on-screen prompts to install the Windscribe VPN client on my computer.
+4.  **Initial IP Address Check (Before VPN Connection):** Before connecting to the VPN, I visited `whatismyipaddress.com` to record my original public IP address. My IPv4 address was `157.32.194.104`, and my IPv6 address was `2409:4042:4b01:8f5:b8ec:126b:1edd:724e`. The identified location was Mumbai, Maharashtra, India. (Refer to `Screenshot (341).png`).
+5.  **Connecting to a VPN Server:** I launched the Windscribe application and logged in with my credentials. I then selected "Best Location" within the Windscribe client and clicked the power button to establish a connection to a VPN server. The client indicated a successful connection, and the firewall displayed a new IP address. (Refer to `Screenshot (342).jpg`).
+6.  **Verifying IP Address Change (After VPN Connection):** To confirm the VPN was working correctly, I revisited `whatismyipaddress.com` while the Windscribe VPN was active. The website now displayed a new IPv4 address: `146.70.108.51`. The reported location had changed to Amsterdam, Netherlands, clearly indicating that my internet traffic was being routed through the VPN server. The website also correctly identified that I was using a VPN. (Refer to `Screenshot (343).png`).
+
+# Connection Status Screenshots
+
+* `Screenshot (342).jpg`: Windscribe VPN client connected.
+* `Screenshot (343).png`: whatismyipaddress.com confirming new IP address and location after VPN connection.
+
+# Summary on VPN Benefits and Limitations
+
+# Benefits of VPNs:
+
+* **Enhanced Privacy:** VPNs encrypt your internet traffic and route it through a server operated by the VPN provider, masking your real IP address and location. This makes it difficult for third parties, including ISPs, advertisers, and governments, to monitor your online activities and identify your actual location.
+* **Secure Communication:** By encrypting data, VPNs protect sensitive information (like passwords, financial details, etc.) from being intercepted, especially when using unsecured public Wi-Fi networks.
+* **Bypassing Geo-Restrictions:** VPNs allow users to appear as if they are Browse from a different geographical location, enabling access to region-restricted content and services.
+* **Protection Against Censorship:** In regions with strict internet censorship, VPNs can help bypass blocks and access the open internet.
+
+# Limitations of VPNs:
+
+* **Reduced Speed:** Routing traffic through an encrypted tunnel and a remote server can introduce latency and reduce internet speeds. The extent of speed reduction depends on factors like server distance, server load, and encryption strength.
+* **Not Complete Anonymity:** While VPNs significantly enhance privacy, they do not guarantee complete anonymity. A VPN provider could potentially log user activity (though reputable providers have strict no-log policies). Also, advanced tracking methods like browser fingerprinting can still identify users.
+* **Cost:** While free tiers exist (like the one used in this task), premium VPN services with better speeds, more server locations, and advanced features typically require a subscription.
+* **Legality and Usage Restrictions:** The legality of VPNs varies by country. Some countries restrict or ban their use. Additionally, using VPNs to bypass terms of service (e.g., for streaming services) might be against their policies.
+* **Potential for IP Leaks:** In some rare cases, a poorly configured VPN or certain system settings can lead to IP leaks (DNS leaks, WebRTC leaks), exposing your real IP address despite using a VPN.
